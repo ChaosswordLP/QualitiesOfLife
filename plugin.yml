@@ -1,0 +1,68 @@
+name: QualitiesOfLife
+main: Chaos\QualitiesOfLife\Loader
+author: Chaos
+version: 1.0.0
+api: 4.0.0
+commands:
+    heal:
+        usage: /heal [player]
+        permission: cmd.heal
+    feed:
+        usage: /feed [player]
+        permission: cmd.feed
+    hunger:
+        usage: /hunger [player]
+        permission: cmd.hunger
+    fly:
+        usage: /fly [player]
+        permission: cmd.fly
+    s:
+        usage: /s [player]
+        permission: cmd.gm s
+    c:
+        usage: /c [player]
+        permission: cmd.gm c
+    a:
+        usage: /a [player]
+        permission: cmd.gm a
+    v:
+        usage: /v [player]
+        permission: cmd.gm v
+    day:
+        usage: /day [world]
+        permission: cmd.time
+    night:
+        usage: /night [world]
+        permission: cmd.time
+    midnight:
+        usage: /midnight [world]
+        permission: cmd.time
+    circle:
+        usage: /circle [radius] [particle amount] [circle amounts]
+        permission: cmd.circle
+    speed:
+        usage: /speed [value] [player]
+        permission: cmd.speed
+permissions:
+    cmd.heal:
+        default: op
+    cmd.feed:
+        default: op
+    cmd.hunger:
+        default: op
+    cmd.fly:
+        default: op
+    cmd.gm s:
+        default: op
+    cmd.gm c:
+        default: op
+    cmd.gm a:
+        default: op
+    cmd.gm v:
+        default: op
+    cmd.time:
+        default: op
+    cmd.circle:
+        default: op
+    cmd.speed:
+        default: op
