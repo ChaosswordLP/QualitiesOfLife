@@ -25,7 +25,7 @@ class FeedExecutor implements CommandExecutor {
 			if($sender instanceof Player){
 				$sender->getHungerManager()->setFood($sender->getHungerManager()->getMaxFood());
 			}else{
-				$sender->sendMessage("Fuck off");
+				$sender->sendMessage("§cFuck off");
 			}
 		}
 		return true;

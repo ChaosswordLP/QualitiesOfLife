@@ -31,7 +31,7 @@ class GamemodeSpectatorExecutor implements CommandExecutor {
 					$sender->setGamemode(GameMode::SPECTATOR());
 				}
 			}else{
-				$sender->sendMessage("Fuck off");
+				$sender->sendMessage("§cFuck off");
 			}
 		}
 		return true;

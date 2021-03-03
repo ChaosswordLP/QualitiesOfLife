@@ -36,7 +36,7 @@ class FlyExecutor implements CommandExecutor {
 					$sender->setFlying(false);
 				}
 			}else{
-				$sender->sendMessage("Fuck off");
+				$sender->sendMessage("§cFuck off");
 			}
 		}
 	return true;

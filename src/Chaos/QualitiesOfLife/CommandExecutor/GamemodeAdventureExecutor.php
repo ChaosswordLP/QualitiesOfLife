@@ -31,7 +31,7 @@ class GamemodeAdventureExecutor implements CommandExecutor {
 					$sender->setGamemode(GameMode::ADVENTURE());
 				}
 			}else{
-				$sender->sendMessage("Fuck off");
+				$sender->sendMessage("§cFuck off");
 			}
 		}
 		return true;

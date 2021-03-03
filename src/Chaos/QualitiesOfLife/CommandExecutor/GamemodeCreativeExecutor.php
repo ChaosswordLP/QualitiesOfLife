@@ -31,7 +31,7 @@ class GamemodeCreativeExecutor implements CommandExecutor {
 					$sender->setGamemode(GameMode::CREATIVE());
 				}
 			}else{
-				$sender->sendMessage("Fuck off");
+				$sender->sendMessage("§cFuck off");
 			}
 		}
 		return true;

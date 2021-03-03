@@ -22,7 +22,7 @@ class HungerExecutor implements CommandExecutor {
 			if($sender instanceof Player){
 				$sender->getHungerManager()->setFood(0);
 			}else{
-				$sender->sendMessage("Fuck off");
+				$sender->sendMessage("§cFuck off");
 			}
 		}
 		return true;

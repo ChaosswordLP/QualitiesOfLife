@@ -22,7 +22,7 @@ class HealExecutor implements CommandExecutor {
 			if($sender instanceof Player){
 				$sender->setHealth($sender->getMaxHealth());
 			}else{
-				$sender->sendMessage("Fuck off");
+				$sender->sendMessage("§cFuck off");
 			}
 		}
 		return true;
