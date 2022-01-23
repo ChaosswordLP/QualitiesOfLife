@@ -18,7 +18,7 @@ class EventListener implements Listener{
 	public function onPlayerJoin(PlayerJoinEvent $event): void{
 		$pC = new GameRulesChangedPacket();
 		$event->getPlayer()->getNetworkSession()->sendDataPacket($pC);
-		$pC->gameRules['showcoordinates'] = new BoolGameRule(true);
+		$pC->gameRules['showcoordinates'] = new BoolGameRule(true, true);
 		$p = $event->getPlayer()->getName();
 		$event->setJoinMessage("§a++$p");
 	}
