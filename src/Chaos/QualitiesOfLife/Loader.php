@@ -33,6 +33,8 @@ class Loader extends PluginBase {
 		$this->getServer()->getCommandMap()->getCommand("day")->setExecutor($timeExecutor);
 		$this->getServer()->getCommandMap()->getCommand("night")->setExecutor($timeExecutor);
 		$this->getServer()->getCommandMap()->getCommand("midnight")->setExecutor($timeExecutor);
+        $this->getServer()->getCommandMap()->getCommand("dawn")->setExecutor($timeExecutor);
+        $this->getServer()->getCommandMap()->getCommand("dusk")->setExecutor($timeExecutor);
 		$this->getServer()->getCommandMap()->getCommand("circle")->setExecutor(new ParticleCircleExecutor());
 		$this->getServer()->getCommandMap()->getCommand("speed")->setExecutor(new SpeedExecutor());
 

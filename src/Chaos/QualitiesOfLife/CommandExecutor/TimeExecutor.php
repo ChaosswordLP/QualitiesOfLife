@@ -15,7 +15,9 @@ class TimeExecutor implements CommandExecutor {
 	private const TIMES = [
 		"day" => 6000,
 		"night" => 14000,
-		"midnight" => 18000
+		"midnight" => 18000,
+        "dusk" => 12200,
+        "dawn" => 23200
 	];
 
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool{

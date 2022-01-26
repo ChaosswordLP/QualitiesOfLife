@@ -37,6 +37,12 @@ commands:
     midnight:
         usage: /midnight [world]
         permission: cmd.time
+    dawn:
+        usage: /dawn [world]
+        permission: cmd.time
+    dusk:
+        usage: /dusk [world]
+        permission: cmd.time
     circle:
         usage: /circle [radius] [particle amount] [circle amounts]
         permission: cmd.circle
