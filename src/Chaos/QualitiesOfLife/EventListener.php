@@ -40,7 +40,7 @@ class EventListener implements Listener{
 
 			if($amount === 0){
 				continue;
-			}
+			} 
 			$step = 2 * M_PI / $amount;
 
 			for($i = 0; $i < $amount; $i++){
